@@ -135,3 +135,189 @@ footer {
         /* increases the carousel height so it looks good on phones */
     }
 }
+
+body
+{
+    font-family: 'Open Sans' , sans-serif;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px; /* breathing room at the bottom */
+    font-size: 16px;
+    line-height: 1.375;
+    background: #c8c8c8
+}
+.header
+{
+    width: 100%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #c1bcbc;
+    border-top: 1px solid #c1bcbc;
+}
+.main{
+
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    font-weight: bold;
+    color: #093a5b;
+    margin-top: 15px;
+  
+}
+#logo
+{
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.header_top
+{
+    width:100%;
+    height: 50px;
+    background: #347fb2;
+    margin-right: 0 auto;
+    margin-left: auto;
+    background-color: #347fb2;
+    display: block;
+
+}
+.form
+{
+    margin: 30px;
+    background-color: #fff;
+
+    
+}
+.container{
+    
+    width: 100%;
+    margin-top: 30px;
+
+}
+.line{
+
+    height: 10px;
+    border-bottom: 1px solid #c1bcbc;
+
+}
+.formTittle{
+
+    font-family: 'Open Sans' , sans-serif;
+    color: #000000;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.375;
+    padding: 0 0 10px 0;
+    width: 200px;
+
+
+}
+.text{
+
+    font-family: 'Open Sans' , sans-serif;
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.375;
+    color: red;
+}
+#selectClient{
+
+
+    width: 100%;
+    height: 40px;
+
+}
+#selectFeature{
+
+
+    width: 100%;
+    height: 40px;
+
+}
+#selectPlatform{
+
+    width: 100%;
+    height: 40px;
+}
+#selectApiVersion{
+
+    width: 100%;
+    height: 40px;
+
+}
+#selectCsdName{
+
+    width: 100%;
+    height: 40px;
+
+}
+#selectYN{
+
+    width: 100%;
+    height: 40px;
+
+}
+.list{
+
+    margin: 20px;
+    list-style: none;
+    font-family: 'Open Sans' , sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.375;
+
+}
+.wrapper{
+
+    padding: 5px 0;
+    background:#fff;
+    width: 86%;
+    margin:50px auto;
+    border-radius:8px;
+   
+}
+
+@media screen and (min-width: 720px){
+
+    .form{
+
+     margin: 50px auto;
+     width:80% 
+        
+    }
+    .line{
+
+        width: 50%;
+        margin: 0 auto;
+    }
+    .list{
+
+     margin: 20px auto;
+     width: 100% 
+        
+    }
+   .wrapper{
+    background:#fff;
+    width: 35%;
+    margin:20px auto;
+    border-radius:8px;
+  
+}
+
+}
+@media screen and (max-width: 320px){
+
+.list{
+
+     font-size: 16px; 
+
+        
+    }
+
+}
