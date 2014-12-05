@@ -275,10 +275,10 @@ body
 }
 .wrapper{
 
-    padding: 5px 0;
+    padding: 10px 0;
     background:#fff;
-    width: 86%;
-    margin:50px auto;
+    width: 90%;
+    margin:10px 10px;
     border-radius:8px;
    
 }
@@ -295,17 +295,20 @@ body
 
         width: 50%;
         margin: 0 auto;
+
     }
     .list{
 
      margin: 20px auto;
-     width: 100% 
+     width: 100%;
+
         
     }
    .wrapper{
+
     background:#fff;
     width: 35%;
-    margin:20px auto;
+    margin:10px auto;
     border-radius:8px;
   
 }
